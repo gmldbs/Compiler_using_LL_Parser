@@ -1,0 +1,26 @@
+BEGIN myfunc
+myfunc(){
+	int a,c;
+	char b;
+
+	a = 0;
+	b = 5;
+
+	WHILE 5 > a
+	{
+		a = a + 1;
+	}
+	
+	IF a > 4
+		THEN 
+		{
+			a=a*a;
+		}
+		ELSE
+		{
+			b=b*a;
+		}
+	
+	RETURN b*b;
+}
+END myfunc

@@ -1,0 +1,15 @@
+BEGIN myfunc
+myfunc(){
+	int a=5;
+	char b;
+
+	b = 5;
+
+	WHILE 5 > a
+	{
+		a = a + 1;
+	}
+
+	RETURN b;
+}
+END myfunc

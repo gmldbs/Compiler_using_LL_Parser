@@ -1,0 +1,12 @@
+BEGIN myfunc
+myfunc(){
+	int a;
+	char b;
+
+	a = 3;
+	b = 5;
+
+	b = a + a;
+	RETURN b;
+}
+END myfunc
